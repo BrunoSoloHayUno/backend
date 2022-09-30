@@ -1,0 +1,9 @@
+com\backendwebscraper\backend\repositories\SearchRepositoryImp.class
+com\backendwebscraper\backend\repositories\SearchRepository.class
+com\backendwebscraper\backend\services\SearchService.class
+com\backendwebscraper\backend\entities\WebPage.class
+com\backendwebscraper\backend\controllers\SearchController.class
+com\backendwebscraper\backend\services\SpiderService.class
+com\backendwebscraper\backend\BackendApplication.class
+com\backendwebscraper\backend\services\ScheduleService.class
+com\backendwebscraper\backend\ServletInitializer.class
