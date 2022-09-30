@@ -97,6 +97,9 @@
 				<version>3.0.3</version>
 				<configuration>
 					<appName>backend</appName>
+					<processTypes>
+						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+					</processTypes>
 				</configuration>
 			</plugin>
 
@@ -109,9 +112,8 @@
 				<nonFilteredFileExtensions>
 					<nonFilteredFileExtension>properties</nonFilteredFileExtension>
 				</nonFilteredFileExtensions>
-			</configuration>
-		</plugin>
-
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>
