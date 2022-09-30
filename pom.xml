@@ -98,7 +98,7 @@
 				<configuration>
 					<appName>backend</appName>
 					<processTypes>
-						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* BackendApplication</web>
 					</processTypes>
 				</configuration>
 			</plugin>
