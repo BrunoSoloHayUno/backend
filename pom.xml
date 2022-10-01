@@ -98,7 +98,7 @@
 				<configuration>
 					<appName>backend</appName>
 					<processTypes>
-						<web>java $JAVA_OPTS -cp target/classes:target/com/backendwebscraper/backend/* BackendApplication</web>
+						<web>java $JAVA_OPTS -cp target/classes:target/com/backendwebscraper/backend/BackendApplication.class</web>
 					</processTypes>
 				</configuration>
 			</plugin>
