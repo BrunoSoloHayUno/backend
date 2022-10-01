@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/com/backendwebscraper/backend/BackendApplication.class
+web: web: java -Dserver.port=$PORT -jar target/heroku-demo-0.0.1-SNAPSHOT.jar

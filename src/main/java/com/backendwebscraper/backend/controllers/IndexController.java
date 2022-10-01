@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-public class SearchController {
+public class IndexController {
 
     @Autowired
     private SearchService service;
